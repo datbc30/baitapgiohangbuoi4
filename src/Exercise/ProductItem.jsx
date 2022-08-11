@@ -7,8 +7,8 @@ export default class ProductItem extends Component {
         <div className='card'>
         <img src={sanPham.hinhAnh} alt="..." width={300} height={300}/>
         <div className='card-body'>
-            <h4>{sanPham.tenSP}$</h4>
-            <button className='btn bg-dark text-white'>
+            <h4>{sanPham.tenSP}</h4>
+            <button className='btn bg-dark text-white m-2'>
                 Xem Chi Tiết
             </button>
             <button className='btn bg-dark text-white' onClick={() => themGioHang(sanPham)}>
